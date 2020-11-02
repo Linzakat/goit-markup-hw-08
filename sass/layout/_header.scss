@@ -1,0 +1,88 @@
+.container-header {
+    width: 1600px;
+    height: 80px;
+    }
+.logo {
+      font-family: $secondary-font;
+      font-weight: bold;
+      font-size: 26px;
+      line-height: 1.19;
+      color: $black-logo;
+      text-decoration: none;
+   }
+.accent {
+      color: $accent-color;
+    }
+
+.site-nav:not(:last-child) {
+  margin-right: 50px;
+}
+.header {
+  border-bottom: 1px solid #ececec;
+
+  &-site-link {
+  display: flex;
+  position: relative;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  }
+  &-site-link::after {
+  content: '';
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 4px;
+  background: $accent-color;
+  border-radius: 2px;
+  bottom: 0;
+  left: 0;
+  opacity: 0;
+  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  &-site-link:hover::after{
+  opacity: 1;
+  }
+  &-site-nav {
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-right: 22px;
+    padding-left: 22px;
+    }
+}
+.site-nav a {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: $title-text-color;
+    list-style: none;
+    display: flex;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+        }
+.site-nav a:hover,
+.site-nav a:focus
+{
+color: $accent-color;
+}
+.container-header {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    display: flex;
+    justify-content:flex-start;
+  }
+   .site-nav {
+    display: flex;
+    margin-left: 93px;
+   }
+   .navigation {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .site-navigation .email,
+  .site-navigation .telefon {
+    color: rgba(255, 255, 255, 0.6);
+  }

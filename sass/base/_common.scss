@@ -1,0 +1,40 @@
+html {
+    box-sizing: border-box;
+  }
+  *,
+  *::before,
+  *::after {
+    box-sizing: inherit;
+  }
+*{
+    margin: 0;
+    padding: 0;
+}
+/*a {
+    text-decoration: none;
+}*/
+
+body {
+    font-family: $main-font;
+    letter-spacing: 0.03em;
+    color: $primary-text-color;
+    background-color: $primary-white-color;
+    }
+    .list { 
+      list-style: none;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
+    .link {
+      text-decoration: none;}
+    li {
+        list-style-type: none;
+      }
+      a {
+        text-decoration: none;
+      }
+        img {
+          display: block;
+        }
+        
