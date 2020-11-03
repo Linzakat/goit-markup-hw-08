@@ -14,7 +14,7 @@
         "../sass/components/_email-address.scss",
         "../sass/layout/_header.scss",
         "../sass/layout/_hero.scss",
-        "../sass/layout/_servises.scss",
+        "../sass/layout/_services.scss",
         "../sass/layout/_workers.scss",
         "../sass/layout/_work.scss",
         "../sass/layout/_clients.scss",
