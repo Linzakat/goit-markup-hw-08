@@ -19,6 +19,12 @@
 }
 .header {
   border-bottom: 1px solid #ececec;
+  .navigation {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 80px;
+  }
 
   &-site-link {
   display: flex;

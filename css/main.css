@@ -395,6 +395,13 @@ img {
   border-bottom: 1px solid #ececec;
 }
 
+.header .navigation {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 80px;
+}
+
 .header-site-link {
   display: flex;
   position: relative;
