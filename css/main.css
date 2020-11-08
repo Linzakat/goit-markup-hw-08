@@ -83,6 +83,24 @@ img {
   padding-right: 15px;
 }
 
+@media screen and (min-width: 480px) {
+  .container {
+    max-width: 480px;
+  }
+}
+
+@media screen and (min-width: 769px) {
+  .container {
+    max-width: 769px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .container {
+    max-width: 1200px;
+  }
+}
+
 .modal {
   height: 581px;
   width: 528px;
@@ -607,6 +625,19 @@ button {
   margin-top: 0px;
   text-align: center;
   padding-bottom: 16px;
+}
+
+.team-card {
+  margin: 0;
+  padding-bottom: 30px;
+  background-color: #ffffff;
+  border-radius: 5px;
+}
+
+.workers-photo {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 30px;
 }
 
 .content {
